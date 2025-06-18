@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom, #2f2f2f, #cfcfcf);
+    margin: 0;
+    height: 100vh;
+    position: relative; 
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 2rem;
+}
+
+a {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #4a90e2;
+    color: white;
+    padding: 60px 100px;
+    text-decoration: none;
+    border-radius: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: #357abd; 
+    transform: scale(1.05); 
+}
